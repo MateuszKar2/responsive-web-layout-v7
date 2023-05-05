@@ -1,0 +1,41 @@
+.ourclients {
+
+    &__title {
+        text-align: center;
+        font-family:"Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: var(--darkgrey); 
+        margin: 0;
+        padding-bottom: 50px;
+        padding-top: 94px;
+      }
+      
+     &__position {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 94px;
+      }
+      
+     &__icon-single {
+        width: 170px;
+        height: 92px;
+        fill: var(--greyicon);
+        border-radius: 4px;
+        border: 1px solid var(--greyicon);
+      }
+      &__icon-single:hover {
+        cursor: pointer;
+        border-color: var(--blue);
+        fill: var(--blue);
+      }
+      
+      &__icon-single:hover,
+      &__icon-single:focus {
+        color: var(--blue);
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+}
