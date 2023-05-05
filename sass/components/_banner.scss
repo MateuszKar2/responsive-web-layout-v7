@@ -1,0 +1,51 @@
+.banner {
+    background-color: var(--verygrey);
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/picture.jpg");
+    background-size: cover;
+    background-position: 50%, 50%;
+    max-width: 1600px;
+  
+&__writing {
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--white);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 40px;
+    margin: 0;
+  
+  
+  }
+&__button-appearance {
+     background-color: var(--blue);
+     height: 50px;
+     width: 200px;
+     border-radius: 4px;
+     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+     cursor: pointer;
+  
+  }
+  
+&__button-text {
+    background-color: var(--blue);
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--white);
+    border: none;
+    margin-left: 42px;
+    margin-top: 10px;
+    border: 0;
+  }
+&__button-position {
+    display: flex;
+    justify-content: center;
+  }
+}
