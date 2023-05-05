@@ -1,0 +1,77 @@
+.team {
+    background-color: var(--verywhite);
+    width: 100%;
+
+&__picture {
+     margin: 0 auto;
+   }
+
+&__position {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    gap: 30px;
+    list-style-type: none;
+    padding-bottom: 94px;  
+  }
+  
+&__title {
+    text-align: center;
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--darkgrey); 
+    margin: 0;
+    padding-top: 94px;
+    padding-bottom: 50px;
+  }
+  
+&__name {
+    text-align: center;
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--darkgrey);
+  }
+&__proffesion {
+    text-align: center;
+    font-family:"Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--grey);
+    padding-bottom: 30px;
+  }
+  
+&__appearance {
+    background-color: var(--white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+                0px 1px 1px rgba(0, 0, 0, 0.14),
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+ &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 10px;
+  }
+   
+&__icon-single {
+    height: 44px;
+    width: 44px;
+    fill: var(--greyicon);
+    border-radius: 50%;
+  }
+&__icon-single:hover {
+    cursor: pointer;
+    background-color: var(--blue);
+    fill: var(--white);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
