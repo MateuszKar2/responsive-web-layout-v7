@@ -62,4 +62,14 @@
 &__icons {
     fill: var(--grey);
   }
+&__link::after {
+    content: "";
+    transform: translateY(30px);
+    background-color: #2196f3;
+    width: 53px;
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    display: block;
+  }
 }
