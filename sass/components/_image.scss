@@ -1,0 +1,49 @@
+
+    .image {
+        width: 370px;
+        height: 404px;
+        margin: 0;
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px rgba(238, 238, 238, 1);
+      
+    &__position {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-bottom: 94px;
+      }
+      
+     &__title {
+        font-family:"Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        color: var(--darkgrey);
+        padding-left: 24px;
+        padding-top: 20px;
+        padding-bottom: 4px;
+        margin: 0;
+      }
+     &__subtitle {
+        font-family:"Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        color: var(--grey);
+        padding-left: 24px;
+      }
+      
+     &__description {
+        border-left: 1px solid #EEEEEE;
+        border-right: 1px solid #EEEEEE;
+        border-bottom: 1px solid #EEEEEE;
+        padding-bottom: 20px;
+        box-shadow: 0, 1px, 1px, rgba(0, 0, 0, 0.12), o, 4px, 4px, rgba(0, 0, 0, 0.06), 1px, 4px, 6px, rgba(0, 0, 0, 0.16);
+      
+      }
+}
