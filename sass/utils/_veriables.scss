@@ -1,0 +1,19 @@
+body {
+    font-family: "Relaway", "Roboto" "sans-serif";  
+    }
+    
+    .link__no {
+      text-decoration: none;
+      list-style-type: none;
+    }
+    
+    .blue-text:hover,
+    .blue-text:focus {
+      color: var(--blue);
+    }
+    
+    .container {
+      max-width: 1200px;
+      padding: 0 15px;
+      margin: 0 auto;
+    }
